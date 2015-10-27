@@ -1,0 +1,21 @@
+#!/bin/sh
+
+#PBS -l mem=22gb,nodes=1:ppn=8,walltime=10:00:00
+#PBS -m ae
+#PBS -M llei@umn.edu 
+#PBS -e picard.erro
+#PBS -N picard_group
+#PBS -q mesabi
+module load picard
+
+${PTOOL}/picard.jar AddOrReplaceReadGroups \
+        INPUT="/home/morrellp/liux1299/Projects/Inversion_loci/Liana_Samples/bam/finished/WBDC002_2015-06-24_2015-07-02_finished.bam" \
+        OUTPUT="${HOME}/Deleterious_mutation_project/wild_species_ID/WBDC002_2015-06-24_2015-07-02_finished_grouped.bam" \
+        RGID= WBDC002 \
+        RGPL= Illumina \
+        RGPU= WBDC002 \
+        RGSM= WBDC002 \
+        RGLB= WBDC002 \
+        TMP_DIR="${HOME}/Scratch/Picard_Tmp" \
+        CREATE_INDEX=True
+    #   Create alignment statistics for finished BAM files

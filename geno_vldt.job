@@ -1,0 +1,45 @@
+#!/bin/sh -l
+
+#PBS -l mem=15gb,nodes=1:ppn=4,walltime=5:00:00 
+#PBS -m ae 
+#PBS -e geno_vldt.error
+#PBS -M llei@umn.edu 
+#PBS -N geno_vldt
+#PBS -q mesabi
+
+#module load gatk
+#   The program we are calling for realignment
+#HOME = "/home/morrellp/"
+#   The reference sequence
+#REF=${SHARED}/Morex_Reference/131012_morex_pseudoscaffolds.fasta
+REF=/home/morrellp/shared/References/Reference_Sequences/Barley/Morex/Morex_Reference.fasta
+#	The capture design
+#OUT_DIR= ${HOME}/Deleterious_mutation_project/wild_species_ID/gatk_out
+#   The alignment file
+ALIGNMENT=/home/morrellp/llei/Deleterious_mutation_project/wild_species_ID/WBDC002_2015-06-24_2015-07-02_finished_grouped.bam
+#${CAPTURE}_AllSamples_2014-01-02.bam
+#	cd into the directory
+#module load java
+cd ${HOME}/Deleterious_mutation_project/wild_species_ID
+#POS_SNP = alchemy_genotypes_BOPA2_geno_0.9pCall.bed
+#	Hapotypecaller Options
+#	--heterozygosity [float]
+#		the expected per-bp pairwise diversity
+#		using 0.008 from Morrell and Clegg 2007
+#	--minPruning [int]
+#		SNPs and Indels have to be supported by at least [int] reads
+#		to be included in the analysis
+#		using 18, for an average of at least 2 per sample
+#		GATK docs warns about setting this too high and missing calls
+module load gatk
+#_JAVA_OPTIONS="-Xmx15g -XX:MaxPermSize=10g" java -jar $PROGRAM\
+#java -Xmx4g -jar /panfs/roc/soft/modulefiles.common/gatk/3.4.0/GenomeAnalysisTK.jar\
+mkdir -p ${HOME}/Deleterious_mutation_project/wild_species_ID/gatk_out/
+gatk\
+	-T GenotypeAndValidate\
+    -L 9K_SNPs_WBDC002.vcf\
+    -alleles 9K_SNPs_WBDC002.vcf\
+    -bt\
+	-I ${ALIGNMENT}\
+	-R ${REF}\
+	-o ${HOME}/Deleterious_mutation_project/wild_species_ID/gatk_out/output_WBDC002_genovldt.vcf
