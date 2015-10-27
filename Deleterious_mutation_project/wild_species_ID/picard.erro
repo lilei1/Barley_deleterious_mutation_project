@@ -1,0 +1,82 @@
+picard is set to write temporary files to /scratch.local/llei/picard_temp
+Invoke a specific picard tool with the command: $PTOOL/picard.jar
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/scratch.local/llei/picard_temp
+[Fri Oct 23 17:14:53 CDT 2015] picard.sam.AddOrReplaceReadGroups INPUT=/home/morrellp/liux1299/Projects/Inversion_loci/Liana_Samples/bam/finished/WBDC003_2015-06-24_2015-07-02_finished.bam OUTPUT=/home/morrellp/llei/Deleterious_mutation_project/wild_species_ID/WBDC003_2015-06-24_2015-07-02_finished_grouped.bam RGID=WBDC003 RGLB=WBDC003 RGPL=Illumina RGPU=WBDC003 RGSM=WBDC003 TMP_DIR=[/home/morrellp/llei/Scratch/Picard_Tmp] CREATE_INDEX=true    VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Fri Oct 23 17:14:53 CDT 2015] Executing as llei@cn0009 on Linux 2.6.32-573.3.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_45-b14; Picard version: 1.140(a81bc82e781dae05c922d1dbcee737334612399f_1444244284) IntelDeflater
+INFO	2015-10-23 17:15:10	AddOrReplaceReadGroups	Created read group ID=WBDC003 PL=Illumina LB=WBDC003 SM=WBDC003
+
+INFO	2015-10-23 17:15:38	AddOrReplaceReadGroups	Processed     1,000,000 records.  Elapsed time: 00:00:11s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_36844:8,128
+INFO	2015-10-23 17:15:49	AddOrReplaceReadGroups	Processed     2,000,000 records.  Elapsed time: 00:00:21s.  Time for last 1,000,000:   10s.  Last read position: morex_contig_40753:2,299
+INFO	2015-10-23 17:15:59	AddOrReplaceReadGroups	Processed     3,000,000 records.  Elapsed time: 00:00:32s.  Time for last 1,000,000:   10s.  Last read position: morex_contig_44919:10,460
+INFO	2015-10-23 17:16:10	AddOrReplaceReadGroups	Processed     4,000,000 records.  Elapsed time: 00:00:43s.  Time for last 1,000,000:   10s.  Last read position: morex_contig_50090:2,578
+INFO	2015-10-23 17:16:21	AddOrReplaceReadGroups	Processed     5,000,000 records.  Elapsed time: 00:00:54s.  Time for last 1,000,000:   10s.  Last read position: morex_contig_57408:2,115
+INFO	2015-10-23 17:16:32	AddOrReplaceReadGroups	Processed     6,000,000 records.  Elapsed time: 00:01:05s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_68864:122
+INFO	2015-10-23 17:16:44	AddOrReplaceReadGroups	Processed     7,000,000 records.  Elapsed time: 00:01:16s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_97185:3,117
+INFO	2015-10-23 17:16:56	AddOrReplaceReadGroups	Processed     8,000,000 records.  Elapsed time: 00:01:28s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_135036:14,431
+INFO	2015-10-23 17:17:07	AddOrReplaceReadGroups	Processed     9,000,000 records.  Elapsed time: 00:01:40s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_148936:892
+INFO	2015-10-23 17:17:19	AddOrReplaceReadGroups	Processed    10,000,000 records.  Elapsed time: 00:01:51s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_178204:639
+INFO	2015-10-23 17:17:31	AddOrReplaceReadGroups	Processed    11,000,000 records.  Elapsed time: 00:02:04s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_228177:112
+INFO	2015-10-23 17:17:43	AddOrReplaceReadGroups	Processed    12,000,000 records.  Elapsed time: 00:02:16s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_274411:2,076
+INFO	2015-10-23 17:17:54	AddOrReplaceReadGroups	Processed    13,000,000 records.  Elapsed time: 00:02:27s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_316199:678
+INFO	2015-10-23 17:18:06	AddOrReplaceReadGroups	Processed    14,000,000 records.  Elapsed time: 00:02:39s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_376395:628
+INFO	2015-10-23 17:18:19	AddOrReplaceReadGroups	Processed    15,000,000 records.  Elapsed time: 00:02:51s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_504194:40
+INFO	2015-10-23 17:18:31	AddOrReplaceReadGroups	Processed    16,000,000 records.  Elapsed time: 00:03:04s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_652285:61
+INFO	2015-10-23 17:18:43	AddOrReplaceReadGroups	Processed    17,000,000 records.  Elapsed time: 00:03:16s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_803289:137
+INFO	2015-10-23 17:18:56	AddOrReplaceReadGroups	Processed    18,000,000 records.  Elapsed time: 00:03:29s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_959486:155
+INFO	2015-10-23 17:19:09	AddOrReplaceReadGroups	Processed    19,000,000 records.  Elapsed time: 00:03:41s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_1120718:180
+INFO	2015-10-23 17:19:21	AddOrReplaceReadGroups	Processed    20,000,000 records.  Elapsed time: 00:03:54s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_1282053:7
+INFO	2015-10-23 17:19:34	AddOrReplaceReadGroups	Processed    21,000,000 records.  Elapsed time: 00:04:06s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_1433159:341
+INFO	2015-10-23 17:19:46	AddOrReplaceReadGroups	Processed    22,000,000 records.  Elapsed time: 00:04:19s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_1538094:1
+INFO	2015-10-23 17:19:58	AddOrReplaceReadGroups	Processed    23,000,000 records.  Elapsed time: 00:04:30s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_1564637:15,500
+INFO	2015-10-23 17:20:09	AddOrReplaceReadGroups	Processed    24,000,000 records.  Elapsed time: 00:04:41s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_1581169:1,998
+INFO	2015-10-23 17:20:21	AddOrReplaceReadGroups	Processed    25,000,000 records.  Elapsed time: 00:04:54s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_1678374:1,058
+INFO	2015-10-23 17:20:33	AddOrReplaceReadGroups	Processed    26,000,000 records.  Elapsed time: 00:05:06s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_1886690:37
+INFO	2015-10-23 17:20:47	AddOrReplaceReadGroups	Processed    27,000,000 records.  Elapsed time: 00:05:20s.  Time for last 1,000,000:   13s.  Last read position: morex_contig_2107865:14
+INFO	2015-10-23 17:21:05	AddOrReplaceReadGroups	Processed    28,000,000 records.  Elapsed time: 00:05:38s.  Time for last 1,000,000:   17s.  Last read position: morex_contig_2342114:225
+INFO	2015-10-23 17:21:18	AddOrReplaceReadGroups	Processed    29,000,000 records.  Elapsed time: 00:05:51s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_2530357:96
+INFO	2015-10-23 17:21:30	AddOrReplaceReadGroups	Processed    30,000,000 records.  Elapsed time: 00:06:03s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_2552715:786
+INFO	2015-10-23 17:21:47	AddOrReplaceReadGroups	Processed    31,000,000 records.  Elapsed time: 00:06:20s.  Time for last 1,000,000:   17s.  Last read position: */*
+INFO	2015-10-23 17:22:02	AddOrReplaceReadGroups	Processed    32,000,000 records.  Elapsed time: 00:06:35s.  Time for last 1,000,000:   14s.  Last read position: */*
+[Fri Oct 23 17:22:06 CDT 2015] picard.sam.AddOrReplaceReadGroups done. Elapsed time: 7.23 minutes.
+Runtime.totalMemory()=6843006976
+picard is set to write temporary files to /scratch.local/llei/picard_temp
+Invoke a specific picard tool with the command: $PTOOL/picard.jar
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/scratch.local/llei/picard_temp
+[Mon Oct 26 11:15:13 CDT 2015] picard.sam.AddOrReplaceReadGroups INPUT=/home/morrellp/liux1299/Projects/Inversion_loci/Liana_Samples/bam/finished/WBDC002_2015-06-24_2015-07-02_finished.bam OUTPUT=/home/morrellp/llei/Deleterious_mutation_project/wild_species_ID/WBDC002_2015-06-24_2015-07-02_finished_grouped.bam RGID=WBDC002 RGLB=WBDC002 RGPL=Illumina RGPU=WBDC002 RGSM=WBDC002 TMP_DIR=[/home/morrellp/llei/Scratch/Picard_Tmp] CREATE_INDEX=true    VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Mon Oct 26 11:15:13 CDT 2015] Executing as llei@cn0024 on Linux 2.6.32-573.3.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_45-b14; Picard version: 1.140(a81bc82e781dae05c922d1dbcee737334612399f_1444244284) IntelDeflater
+INFO	2015-10-26 11:15:29	AddOrReplaceReadGroups	Created read group ID=WBDC002 PL=Illumina LB=WBDC002 SM=WBDC002
+
+INFO	2015-10-26 11:15:59	AddOrReplaceReadGroups	Processed     1,000,000 records.  Elapsed time: 00:00:11s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_36945:58
+INFO	2015-10-26 11:16:09	AddOrReplaceReadGroups	Processed     2,000,000 records.  Elapsed time: 00:00:21s.  Time for last 1,000,000:   10s.  Last read position: morex_contig_40985:6,909
+INFO	2015-10-26 11:16:20	AddOrReplaceReadGroups	Processed     3,000,000 records.  Elapsed time: 00:00:32s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_45331:4,888
+INFO	2015-10-26 11:16:31	AddOrReplaceReadGroups	Processed     4,000,000 records.  Elapsed time: 00:00:43s.  Time for last 1,000,000:   10s.  Last read position: morex_contig_50656:1,760
+INFO	2015-10-26 11:16:42	AddOrReplaceReadGroups	Processed     5,000,000 records.  Elapsed time: 00:00:54s.  Time for last 1,000,000:   10s.  Last read position: morex_contig_58376:3,989
+INFO	2015-10-26 11:16:53	AddOrReplaceReadGroups	Processed     6,000,000 records.  Elapsed time: 00:01:05s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_71568:3,103
+INFO	2015-10-26 11:17:04	AddOrReplaceReadGroups	Processed     7,000,000 records.  Elapsed time: 00:01:16s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_101368:279
+INFO	2015-10-26 11:17:16	AddOrReplaceReadGroups	Processed     8,000,000 records.  Elapsed time: 00:01:28s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_135732:1,285
+INFO	2015-10-26 11:17:27	AddOrReplaceReadGroups	Processed     9,000,000 records.  Elapsed time: 00:01:39s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_157597:1,635
+INFO	2015-10-26 11:17:39	AddOrReplaceReadGroups	Processed    10,000,000 records.  Elapsed time: 00:01:51s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_188087:427
+INFO	2015-10-26 11:17:51	AddOrReplaceReadGroups	Processed    11,000,000 records.  Elapsed time: 00:02:03s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_240825:333
+INFO	2015-10-26 11:18:02	AddOrReplaceReadGroups	Processed    12,000,000 records.  Elapsed time: 00:02:14s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_277900:509
+INFO	2015-10-26 11:18:14	AddOrReplaceReadGroups	Processed    13,000,000 records.  Elapsed time: 00:02:26s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_330156:306
+INFO	2015-10-26 11:18:26	AddOrReplaceReadGroups	Processed    14,000,000 records.  Elapsed time: 00:02:37s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_400822:582
+INFO	2015-10-26 11:18:38	AddOrReplaceReadGroups	Processed    15,000,000 records.  Elapsed time: 00:02:49s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_539075:240
+INFO	2015-10-26 11:18:50	AddOrReplaceReadGroups	Processed    16,000,000 records.  Elapsed time: 00:03:02s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_687403:282
+INFO	2015-10-26 11:19:02	AddOrReplaceReadGroups	Processed    17,000,000 records.  Elapsed time: 00:03:14s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_845234:1
+INFO	2015-10-26 11:19:14	AddOrReplaceReadGroups	Processed    18,000,000 records.  Elapsed time: 00:03:26s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_1000784:22
+INFO	2015-10-26 11:19:26	AddOrReplaceReadGroups	Processed    19,000,000 records.  Elapsed time: 00:03:38s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_1163272:12
+INFO	2015-10-26 11:19:39	AddOrReplaceReadGroups	Processed    20,000,000 records.  Elapsed time: 00:03:50s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_1323663:251
+INFO	2015-10-26 11:19:51	AddOrReplaceReadGroups	Processed    21,000,000 records.  Elapsed time: 00:04:03s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_1476151:30
+INFO	2015-10-26 11:20:03	AddOrReplaceReadGroups	Processed    22,000,000 records.  Elapsed time: 00:04:15s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_1558444:2,247
+INFO	2015-10-26 11:20:14	AddOrReplaceReadGroups	Processed    23,000,000 records.  Elapsed time: 00:04:26s.  Time for last 1,000,000:   10s.  Last read position: morex_contig_1569129:5,099
+INFO	2015-10-26 11:20:25	AddOrReplaceReadGroups	Processed    24,000,000 records.  Elapsed time: 00:04:37s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_1596863:786
+INFO	2015-10-26 11:20:37	AddOrReplaceReadGroups	Processed    25,000,000 records.  Elapsed time: 00:04:49s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_1751456:1,130
+INFO	2015-10-26 11:20:49	AddOrReplaceReadGroups	Processed    26,000,000 records.  Elapsed time: 00:05:01s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_1963041:76
+INFO	2015-10-26 11:21:02	AddOrReplaceReadGroups	Processed    27,000,000 records.  Elapsed time: 00:05:14s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_2194622:116
+INFO	2015-10-26 11:21:14	AddOrReplaceReadGroups	Processed    28,000,000 records.  Elapsed time: 00:05:26s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_2424822:46
+INFO	2015-10-26 11:21:26	AddOrReplaceReadGroups	Processed    29,000,000 records.  Elapsed time: 00:05:38s.  Time for last 1,000,000:   12s.  Last read position: morex_contig_2546767:5,948
+INFO	2015-10-26 11:21:37	AddOrReplaceReadGroups	Processed    30,000,000 records.  Elapsed time: 00:05:49s.  Time for last 1,000,000:   11s.  Last read position: morex_contig_2582945:255
+INFO	2015-10-26 11:21:48	AddOrReplaceReadGroups	Processed    31,000,000 records.  Elapsed time: 00:06:00s.  Time for last 1,000,000:   10s.  Last read position: */*
+INFO	2015-10-26 11:21:58	AddOrReplaceReadGroups	Processed    32,000,000 records.  Elapsed time: 00:06:10s.  Time for last 1,000,000:    9s.  Last read position: */*
+[Mon Oct 26 11:22:00 CDT 2015] picard.sam.AddOrReplaceReadGroups done. Elapsed time: 6.79 minutes.
+Runtime.totalMemory()=12201230336
